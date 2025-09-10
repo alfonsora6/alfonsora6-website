@@ -5,17 +5,21 @@ export interface Language {
 }
 
 export const languages: Record<string, Language> = {
-  angular: {
-    name: "Angular",
-    iconName: "angular",
+  docker: {
+    name: "Docker",
+    iconName: "docker",
+  },
+  kubernetes: {
+    name: "Kubernetes",
+    iconName: "kubernetes",
   },
   astro: {
     name: "Astro",
     iconName: "astro",
   },
-  bootstrap: {
-    name: "Bootstrap",
-    iconName: "bootstrap",
+  ansible: {
+    name: "Ansible",
+    iconName: "ansible",
   },
   cloudflare: {
     name: "Cloudflare",
@@ -24,10 +28,6 @@ export const languages: Record<string, Language> = {
   html: {
     name: "HTML 5",
     iconName: "html",
-  },
-  javascript: {
-    name: "JavaScript",
-    iconName: "javascript",
   },
   mongo: {
     name: "MongoDb",
@@ -54,9 +54,17 @@ export const languages: Record<string, Language> = {
     name: "Figma",
     iconName: "figma",
   },
-  firebase: {
-    name: "Firebase",
-    iconName: "firebase",
+  apache: {
+    name: "Apache",
+    iconName: "apache",
+  },
+  tomcat: {
+    name: "Tomcat",
+    iconName: "tomcat",
+  },
+  wildfly: {
+    name: "Wildfly",
+    iconName: "wildfly",
   },
   markdown: {
     name: "Markdown",
@@ -66,13 +74,13 @@ export const languages: Record<string, Language> = {
     name: "PHP",
     iconName: "php",
   },
-  sass: {
-    name: "Sass",
-    iconName: "sass",
+  nginx: {
+    name: "Nginx",
+    iconName: "nginx",
   },
-  ts: {
-    name: "TypeScript",
-    iconName: "typescript",
+  oracle: {
+    name: "Oracle",
+    iconName: "oracle",
   },
   git: {
     name: "Git",
@@ -82,29 +90,29 @@ export const languages: Record<string, Language> = {
     name: "CSS",
     iconName: "css",
   },
-  vercel: {
-    name: "Vercel",
-    iconName: "vercel",
+  terraform: {
+    name: "Terraform",
+    iconName: "terraform",
   },
-  netlify: {
-    name: "Netlify",
-    iconName: "netlify",
+  postgresql: {
+    name: "PostgreSQL",
+    iconName: "postgresql",
   },
-  gatsby: {
-    name: "Gatsby",
-    iconName: "gatsby",
+  openstack: {
+    name: "Openstack",
+    iconName: "openstack",
   },
-  windsurf: {
-    name: "Windsurf",
-    iconName: "windsurf-logo",
+  azure: {
+    name: "Microsoft Azure",
+    iconName: "azure",
   },
-  cursor: {
-    name: "Cursor",
-    iconName: "cursor-ia",
+  bash: {
+    name: "Bash",
+    iconName: "bash",
   },
-  deepseek: {
-    name: "DeepSeek",
-    iconName: "deepseek",
+  vagrant: {
+    name: "Vagrant",
+    iconName: "vagrant",
   },
   python: {
     name: "Python",
