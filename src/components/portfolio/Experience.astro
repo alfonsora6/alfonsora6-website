@@ -1,0 +1,49 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCE = [
+  {
+    date: "2025 - Actualidad",
+    title: "Support Technician",
+    company: "Randstad",
+    description: "Como Técnico de Soporte en Randstad, presté asistencia técnica a usuarios, resolviendo problemas de hardware y software, configurando equipos y realizando tareas de mantenimiento. Participé en la gestión de incidencias mediante plataformas ITSM, desarrollando una atención al cliente eficaz y resolutiva."
+  },
+  {
+    date: "2023 - 2024",
+    title: "Implementation and Support Specialist",
+    company: "Guadaltel, S.A.",
+    description: "En Guadaltel participé en la implantación de aplicaciones y en tareas clave del ciclo de vida del software, como la compilación, el despliegue en entornos de producción y la resolución de incidencias. También brindé soporte técnico, realicé actualizaciones de librerías y gestioné certificados SSL, asegurando la continuidad y seguridad de los servicios."
+  },
+  {
+    date: "2023 - 2023",
+    title: "Azure Cloud Administrator",
+    company: "Kyndryl",
+    description:
+      "Durante mis prácticas de Grado Superior de Administrador de Sistemas Informáticos en Red, en Kyndryl trabajé como Azure Cloud Administrator, donde me enfoqué en la automatización y gestión de recursos en la nube. Mis principales tareas fueron:\n\n • Implementar recursos en Azure usando plantillas ARM.\n\n • Gestionar infraestructura con Terraform.\n\n • Configurar servicios en Azure para asegurar su disponibilidad.\n\n • Desplegar infraestructura automatizada con Azure DevOps.\n\n • Diseñar pipelines de integración y entrega continua."
+  },
+  {
+    date: "2021 - 2021",
+    title: "Técnico informático",
+    company: "Sithus Aplicaciones Informáticas, S.L",
+    description: "En el periodo de prácticas en el Grado Medio de Sistemas Microinformáticos y Redes, desarrollé tareas técnicas en el ámbito del hardware, redes y virtualización, entre las que destacan: \n\n • Montaje y configuración de equipos informáticos.\n\n • Instalación y configuración de un clúster Proxmox VE para la gestión de máquinas virtuales y alta disponibilidad.\n\n • Uso de Docker para el despliegue de contenedores y servicios en entornos controlados.\n\n • Mantenimiento y gestión de redes locales.\n\n Esta experiencia me permitió aplicar los conocimientos adquiridos durante el ciclo formativo, afianzar habilidades prácticas en entornos reales y familiarizarme con tecnologías utilizadas actualmente en el sector IT."
+  },
+];
+---
+
+<div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+  <ol class="relative mt-10">
+    {
+      EXPERIENCE.map((experience, index) => (
+        <li class="">
+          <article role="article" aria-labelledby={`experience-title-${index}`}>
+            <div
+              class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
+              aria-describedby={`experience-title-${index}`}
+            >
+              <ExperienceItem {...experience} />
+            </div>
+          </article>
+        </li>
+      ))
+    }
+  </ol>
+</div>
