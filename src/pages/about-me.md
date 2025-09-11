@@ -1,14 +1,12 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
-title: "Alfonso Roldán | My Journey in Technology and Web Development 🚀| EFEELE"
-description: "Web developer, technology enthusiast, and event organizer. From my beginnings in development to creating communities and impactful projects, here I share my journey, experiences, and learnings. 🚀☕"
+title: "Alfonso Roldán Amador"
+description: "Administrador de sistemas con experiencia en la gestión de servidores, redes y entornos cloud. Apasionado por la tecnología, la mejora continua y la búsqueda de soluciones eficientes que simplifiquen procesos. ⚡💡"
 author: "Alfonso Roldán"
 image:
-  url: "/images/efeeleprofile.webp"
-  alt: "Photo of Fernando Aldair López Ponce (EFEELE) for the blog"
+  url: "/images/perfil.jpg"
+  alt: "Foto de Alfonso Roldán Amador (alfonsora6) para el blog"
 ---
-
-Administrador de Sistemas | Especialista en Infraestructura IT | DevOps y Cloud Enthusiast
 
 Soy un profesional con experiencia sólida en la administración de sistemas, gestionando infraestructuras tecnológicas y brindando soporte en entornos dinámicos y en constante cambio. Me apasiona trabajar con tecnologías de vanguardia y mejorar la eficiencia operativa a través de la automatización y la optimización de procesos.
 
@@ -33,6 +31,18 @@ Lo que me define:
 En busca de:
 
 Actualmente estoy en búsqueda de nuevas oportunidades en administración de sistemas, DevOps o soporte técnico, tanto en modalidad presencial como remota. Mi objetivo es seguir creciendo profesionalmente mientras contribuyo al éxito de un equipo dinámico y orientado a resultados.
+
+## Mi historia
+
+Desde muy pequeño, la tecnología ha sido mi pasión: consolas, ordenadores y cualquier dispositivo que pudiera explorar. Mi primer ordenador en casa fue un portátil Acer de 32 bits que usé hasta desgastarlo, y más tarde tuve mi propio portátil Toshiba con Guadalinex EDU, ese fue mi primer contacto con Linux. Siempre probando cosas, indagando y aprendiendo por mi cuenta y disfrutando del mundo digital.
+
+Durante el bachillerato tecnológico, en la asignatura de TIC descubrí que me encantaba el cacharreo y entender cómo funcionaban los ordenadores. Hice mi primera lista de componentes para montar un PC de sobremesa, comprobando que todo era compatible y experimentando la emoción de construirlo desde cero.
+
+Decidí continuar mi formación en el Grado Medio de Sistemas Microinformáticos y Redes, donde comprobé que tenía facilidad para aprender y pasión por la informática. Tras dos años, obtuve mi título y monté mi propio ordenador actualizado, consolidando mi conocimiento práctico y mi amor por la tecnología.
+
+Hoy, sigo explorando, aprendiendo y aplicando la tecnología para resolver problemas reales, siempre con curiosidad y ganas de crear soluciones efectivas y útiles.
+
+## Experiencia profesional
 
 I started developing my first commercial projects as a web developer in 2017. Although I've been passionate about technology for as long as I can remember. I discovered the internet at age 6, and along with it, I learned to use **Paint** 🎨 and play **Pinball** on a **Windows XP** computer that my cousins had. Years passed, and I discovered there was a cyber café near my house, so accompanied by my older brother, I spent a lot of time there, watching others play **Age of Empires** ⚔️. When I could, I also played on the computers and investigated how those games worked. But above all, I remember that while sitting there, I watched the owner, Alfredo, the good <a href="https://fred.cpp.mx/" target="_blank" rel="noopener noreferrer">Fred</a>, while he programmed and modeled game maps, or at least that's what I remember. That made me want to try doing the same. I found it incredible how so many things happened on his screen that, although I couldn't understand them, looked amazing. Without a doubt, he was my first influence to get into programming.
 
