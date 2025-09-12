@@ -7,6 +7,35 @@
 	--font-montserrat: "Montserrat", sans-serif;
 	--font-roboto: "Roboto", sans-serif;
 	--font-opensans: "Open Sans", sans-serif;
+	
+	--color-blacktext: #171717;
+	--color-mint-50: #eff6ff;
+	--color-mint-100: #dbeafe;
+	--color-mint-200: #bfdbfe;
+	--color-mint-300: #93c5fd;
+	--color-mint-400: #60a5fa;
+	--color-mint-500: #3b82f6; /* Azul principal */
+	--color-mint-600: #2563eb;
+	--color-mint-700: #1d4ed8;
+	--color-mint-800: #1e40af;
+	--color-mint-900: #1e3a8a;
+	--color-mint-950: #172554;
+	
+	/* Escala secundaria (antes riptide → ahora sky) */
+	--color-riptide-50: #f0f9ff;
+	--color-riptide-100: #e0f2fe;
+	--color-riptide-200: #bae6fd;
+	--color-riptide-300: #7dd3fc;
+	--color-riptide-400: #38bdf8;
+	--color-riptide-500: #0ea5e9;
+	--color-riptide-600: #0284c7;
+	--color-riptide-700: #0369a1;
+	--color-riptide-800: #075985;
+	--color-riptide-900: #0c4a6e;
+	--color-riptide-950: #082f49;
+	
+	/* Plantilla predefinida (Verde)
+
 	--color-blacktext: #171717;
 	--color-mint-50: #ecfdf5;
 	--color-mint-100: #d0fbe5;
@@ -31,6 +60,8 @@
 	--color-riptide-800: #105f5a;
 	--color-riptide-900: #124f4b;
 	--color-riptide-950: #03302f;
+
+	*/
 
 	--animate-rotate: rotate 10s linear infinite;
 
